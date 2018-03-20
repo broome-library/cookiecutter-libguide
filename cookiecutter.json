@@ -5,6 +5,7 @@
     "librarian": ["lcarroll.md", "jpinkley.md", "lworden.md"],
     "using_webguide": "y",
     "using_images_guide": "y",
+    "using_other_guide": "y",
     "windows": "y",
     "use_python2": "n"
 }
