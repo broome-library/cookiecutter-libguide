@@ -1,0 +1,10 @@
+{
+    "project_name": "project_name",
+    "repo_name": "{{ cookiecutter.project_name|replace(' ', '_')|lower }}",
+    "description": "A short description of the project.",
+    "librarian": ["lcarroll.md", "jpinkley.md", "lworden.md"],
+    "using_webguide": "y",
+    "using_images_guide": "y",
+    "windows": "y",
+    "use_python2": "n"
+}

@@ -1,0 +1,20 @@
+# os ignores
+.DS_Store
+
+# ide (pycharm)
+.idea
+
+# python ignores
+*.pyc
+__pycache__/
+
+# django
+migrations/
+
+#libs
+font-awesome/
+pure.css/
+
+# misc
+db.sqlite3
+
