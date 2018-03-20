@@ -9,7 +9,7 @@ This is a `cookiecutter <https://github.com/audreyr/cookiecutter#cookiecutter>`_
 
 Installation
 ============
-This installation assumes `Python 3.6 <https://www.python.org/downloads/release/python-360/>`_
+This installation assumes `Python 3.6 <https://www.python.org/downloads/release/python-360/>`_.
 Create a virtualenv for this project (assuming you have `virtualenvwrapper <http://virtualenvwrapper.readthedocs.io/en/latest/index.html>`_ or `virtualenvwrapper-win <https://pypi.python.org/pypi/virtualenvwrapper-win>`_ installed)::
 
     ~$ mkvirtualenv cookiecutter
@@ -37,4 +37,10 @@ One installed run the following command to run the cookiecutter::
 
 This will run the template generator prompting some questions.  The project will be generated within the current directory. **The current directory can't be the same directory of the cookiecutter template**
 
-Once done you'll want to create two repos.  One in github. The second will be a Gitbook that links to the github project.   
+Once done you'll want to create two repos.  One in github. The second will be a Gitbook that links to the github project.
+
+Further Information
+===================
+More documentation regarding customizing this template can be found on the `cookiecutter <https://github.com/audreyr/cookiecutter#cookiecutter>`_ project documentation:
+ 
+ https://cookiecutter.readthedocs.io/en/latest/
