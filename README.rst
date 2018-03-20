@@ -16,6 +16,7 @@ Create a virtualenv for this project (assuming you have `virtualenvwrapper <http
     ~$ workon cookiecutter
    
 or for Windows Powershell, for CMD terminals the commands should be the same as above::
+    
     PS> mkvirtualenv cookiecutter
     PS> workon.ps1 cookiecutter
 
@@ -32,8 +33,8 @@ Usage
 =====
 One installed run the following command to run the cookiecutter::
 
-    $> cookiecutter <path_to_cookiecutter_template>
+    ~$ cookiecutter /path/to/cookiecutter_template
 
-This will run the template generator prompting some questions.  The project will be generated within the current directory. 
+This will run the template generator prompting some questions.  The project will be generated within the current directory. **The current directory can't be the same directory of the cookiecutter template**
 
 Once done you'll want to create two repos.  One in github. The second will be a Gitbook that links to the github project.   
