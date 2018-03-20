@@ -2,7 +2,7 @@
     "project_name": "project_name",
     "repo_name": "{{ cookiecutter.project_name|replace(' ', '_')|lower }}",
     "description": "A short description of the project.",
-    "librarian": ["lcarroll.md", "jpinkley.md", "lworden.md"],
+    "librarian": ["lcarroll.md", "jpinkley.md", "lworden.md", "mpereira.md", "dhoffmann.md"],
     "using_webguide": "y",
     "using_images_guide": "y",
     "using_other_guide": "y",
