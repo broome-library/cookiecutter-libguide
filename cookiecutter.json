@@ -6,6 +6,12 @@
     "using_webguide": "y",
     "using_images_guide": "y",
     "using_other_guide": "y",
+    "github_user": "broome-library",
+    "gitbook_user": "{{ cookiecutter.github_user }}",
+    "github_repo": "https://github.com/broome-library/{{ cookiecutter.repo_name }}-guide",
+    "gitbook_account_page": "https://www.gitbook.com/@broome-library",
+    "gitbook_details_page": "https://www.gitbook.com/book/broome-library/{{ cookiecutter.repo_name }}-guide/details",
+    "gitbook_content_url": "https://broome-library.gitbooks.io/{{ cookiecutter.repo_name }}-guide/content",
     "windows": "y",
     "use_python2": "n"
 }
