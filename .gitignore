@@ -1,8 +1,9 @@
 # os ignores
 .DS_Store
 
-# ide (pycharm)
+# ide 
 .idea
+.vscode/
 
 # python ignores
 *.pyc
