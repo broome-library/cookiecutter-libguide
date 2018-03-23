@@ -21,15 +21,38 @@ GitBooks is brought to by the same people that host and maintain GitHub.  As suc
 
 ### GitHub Repository
 
-https://github.com/broome-library/{{ cookie-cutter.repo_name }-}guide.git
+https://github.com/broome-library/{{ cookie-cutter.repo_name }}-guide.git
 
-## Basic Setup
+## Workflow
 
 Here is a quick rundown of how this gitbook is setup.
 
+### Basic Setup 
+
 * A repository is created in the broome-library GitHub account.
-* To keep the broome-library account clean and track changes made a collaborator added to that repository. Once the collaborator accepts the invitation they are able to push changes to the repository.
-* Now the a local repository is created using a project template tool.  The tool used is a python based template generator called [cookiecutter]().  
+* To keep the broome-library account clean and track changes made a collaborator is added to that repository. Once the collaborator accepts the invitation they are able to push changes to the repository.
+* Now collabortor creates a local repository using a project template tool.  The tool used is a python based template generator called [cookiecutter](https://cookiecutter.readthedocs.io/en/latest/).  
 ** Here is the link to the cookiecutter repository created for this project, [cookiecutter-libraryguide](https://github.com/broome-library/cookiecutter-libguide).
+* The newly created gitbook-guide is initialized as a git repository and a remote repo is added to the local repo, eg: 
+ ```shell
+ [{{ cookiecutter.repo_name }}] $ git init
+ [{{ cookiecutter.repo_name }}] $ git remote add origin {{ cookiecutter.github_repo }}
+ ```
 
+* Then a new 'book' is created within GitBook that links/syncs with the respective GitHub repository.
 
+#### For a fresh, brand new guide
+Assuming the above workflow is done:
+
+* Content is then created to the newly created lib guide GitBook and pushed to the GitHub repository. The Gitbook will sync with the GitHub repo updating the Library Guide.
+
+#### Transfering a Guide from a Word Document
+* The Word document is broken into sections by headings.  These sections correspond to the various markdown documents in the Library Guide.  For example the web section will eventually be copy and pasted into the Web.md file. The Library guide sections, such as web, are given a word style heading of Heading one, any sub sections are given the appropriate sub heading of 2 or 3 or 4 or whatever.
+ * Once normalized, using the online GitBook editor and the open word document, each section such, as the web section, is copy and pasted in to that Gitbook section.
+ * There is some word document css styles that are imported when copy and pasted.  This can be deleted.
+ * After that there will be some minimal styling that can be done in the in Gitbook editor, such as bullet lists.
+ * Once all done publish in the Gitbook.
+ * I would recommend that after the gitbook is published that pull the changes to youor local repo.
+
+ #### Continuing work
+ * If working locally be sure to pull any changes to the local repo before work is started. 
