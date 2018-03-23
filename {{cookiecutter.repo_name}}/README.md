@@ -16,9 +16,13 @@ GitBooks is brought to by the same people that host and maintain GitHub.  As suc
 #### [{{ cookiecutter.project_name }} Details Page]({{ cookiecutter.gitbook_details_page }})
 > The details page is the landing page for the {{ cookiecutter.project_name }} GitBook.  It displays the introduction as well as provides links to edit the settings or the book pages if logged in.
 
-#### [{{ cookiecutter.project_name }} Content URL]({{ cookiecutter.gitbook_contenturl }})
+#### [{{ cookiecutter.project_name }} Content URL]({{ cookiecutter.gitbook_content_url }})
 > The content URL is a direct link to this research guide. This is the link used in on the Library's [Research Guide by Subject](https://library.csuci.edu/research/dbases-subject.htm) page.
 
 ### GitHub Repository
 
-https://github.com/broome-library/{{ cookie-cutter.repo_name }}.git
+#### https
+{{ cookiecutter.github_repo }}
+
+#### ssh
+{{ cookiecutter.github_repo_ssh }}

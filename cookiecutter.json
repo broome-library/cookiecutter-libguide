@@ -8,10 +8,11 @@
     "using_other_guide": "y",
     "github_user": "broome-library",
     "gitbook_user": "{{ cookiecutter.github_user }}",
-    "github_repo": "https://github.com/broome-library/{{ cookiecutter.repo_name }}",
-    "gitbook_account_page": "https://www.gitbook.com/@broome-library",
-    "gitbook_details_page": "https://www.gitbook.com/book/broome-library/{{ cookiecutter.repo_name }}/details",
-    "gitbook_content_url": "https://broome-library.gitbooks.io/{{ cookiecutter.repo_name }}/content",
+    "github_repo": "https://github.com/{{ cookiecutter.github_user }}/{{ cookiecutter.repo_name }}",
+    "github_repo_ssh": "git@github.com:{{ cookiecutter.github_user }}/{{ cookiecuter.repo_name }}.git",
+    "gitbook_account_page": "https://www.gitbook.com/@{{ cookiecutter.gitbook_user }}",
+    "gitbook_details_page": "https://www.gitbook.com/book/{{ cookiecutter.gitbook_user }}/{{ cookiecutter.repo_name }}/details",
+    "gitbook_content_url": "https://{{ cookiecutter.gitbook_user }}.gitbooks.io/{{ cookiecutter.repo_name }}/content",
     "windows": "y",
     "use_python2": "n"
 }
