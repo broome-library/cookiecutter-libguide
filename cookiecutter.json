@@ -1,7 +1,7 @@
 {
     "project_name": "project_name",
     "repo_name": "{{ cookiecutter.project_name|replace(' ', '_')|lower }}",
-    "description": "A short description of the project.",
+    "description": "A JSBL {{ cookiecutter.project_name }}",
     "librarian": ["lcarroll.md", "jpinkley.md", "lworden.md", "mpereira.md", "dhoffmann.md"],
     "using_webguide": "y",
     "using_images_guide": "y",
