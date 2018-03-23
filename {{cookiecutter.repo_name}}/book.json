@@ -1,4 +1,5 @@
 {
+    "description": "{{ cookiecutter.description }}",
     "structure":{
         "readme":"intro.md"
     },
