@@ -25,4 +25,4 @@ GitBooks is brought to by the same people that host and maintain GitHub.  As suc
 {{ cookiecutter.github_repo }}
 
 #### ssh
-{{ cookiecutter.github_repo_ssh }}
+```{{ cookiecutter.github_repo_ssh }}```
