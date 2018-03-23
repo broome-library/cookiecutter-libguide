@@ -21,4 +21,4 @@ GitBooks is brought to by the same people that host and maintain GitHub.  As suc
 
 ### GitHub Repository
 
-https://github.com/broome-library/{{ cookie-cutter.repo_name }}-guide.git
+https://github.com/broome-library/{{ cookie-cutter.repo_name }}.git
