@@ -18,3 +18,6 @@ git commit -am "initial commit of {{ cookiecutter.project_name }} project"
 
 # push (remmber can only push if using an ssh url and you are a collaborator)
 git push -u origin master
+
+# change directory back to gitbooks
+cd ..
