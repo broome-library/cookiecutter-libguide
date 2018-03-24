@@ -1,6 +1,7 @@
 {
-    "project_name": "project_name",
-    "repo_name": "{{ cookiecutter.project_name|replace(' ', '_')|lower }}",
+    "subject": "enter subject",
+    "project_name": "{{ cookiecutter.subject|title}} Research Guide",
+    "repo_name": "{{ cookiecutter.subject|replace(' ', '-')|lower }}-guide",
     "description": "A JSBL {{ cookiecutter.project_name }}",
     "librarian": ["lcarroll.md", "jpinkley.md", "lworden.md", "mpereira.md", "dhoffmann.md"],
     "using_webguide": "y",
