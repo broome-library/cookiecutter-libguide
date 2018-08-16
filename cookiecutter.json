@@ -3,7 +3,7 @@
     "project_name": "{{ cookiecutter.subject|title}} Research Guide",
     "repo_name": "{{ cookiecutter.subject|replace(' ', '-')|lower }}-guide",
     "description": "A JSBL {{ cookiecutter.project_name }}",
-    "librarian": ["lcarroll.md", "jpinkley.md", "lworden.md", "mpereira.md", "dhoffmann.md"],
+    "librarian": ["lcarroll.md", "jpinkley.md", "lworden.md", "mpereira.md", "dhoffmann.md", "phadley.md"],
     "using_webguide": "y",
     "using_images_guide": "y",
     "using_other_guide": "y",
