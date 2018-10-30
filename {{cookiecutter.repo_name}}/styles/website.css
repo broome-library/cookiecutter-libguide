@@ -1,14 +1,14 @@
-/************************  
+/************************
 / main-content 
 *************************/
 .book-body { /* background */
-    background-color: #f3f2e9; 
+    background-color: #f3f2e9;
     }
 
 .markdown-section h1 { /* libguide chapter heading */
     background-color: #cb132a;
     color:            #ffffff;
-    font-size:        2em;	
+    font-size:        2em;
     padding-left:     1em;
     }
 
@@ -16,14 +16,14 @@
     background-color: #ffffff;
     }
 
-/************************  
+/************************
 / side-bar
 ************************/
 .book-summary { /* background color */
-    background-color: #f3f2e9; 
+    background-color: #f3f2e9;
     }
 
-.book-summary ul.summary li a:hover { /* hover style */   
+.book-summary ul.summary li a:hover { /* hover style */
     background-color: #cb132a;
     color:            #ffffff;
     text-decoration:  none;
@@ -37,13 +37,13 @@ a.gitbook-link { /* hide gitbook link */
     display:          none !important;
     }
 
-/*********************** 
+/***********************
 / header 
 ************************/
 .book-header {
     background-color: #d9e8e9;
     }
-    
+
 .fa.fa-align-justify { /* hamburger menu */
     color: #cb1313cc;
     }
